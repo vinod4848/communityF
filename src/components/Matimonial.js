@@ -184,7 +184,7 @@ function Matimonial() {
                     navigate(`/matimonial-profile/${matimonialItems._id}`);
                   }}
                 >
-                  <img src={matimonialItems.image} alt="" />
+                  <img src={matimonialItems.images} alt="" />
 
                   <div className="matimonila_details">
                     <h5>{matimonialItems.profileId.firstName}</h5>

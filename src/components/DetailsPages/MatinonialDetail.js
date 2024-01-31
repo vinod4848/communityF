@@ -46,7 +46,7 @@ function MatinonialDetail() {
       <div className="matimonail-detail-page">
         <div className="matimonial-contaner flex">
           <section className="matimonail-profile-section">
-            {matrimonialdetail && <img src={matrimonialdetail.image} alt="" />}
+            {matrimonialdetail && <img src={matrimonialdetail.images} alt="" />}
           </section>
           <section className="matimonail-content-section">
             {matrimonialdetail && (

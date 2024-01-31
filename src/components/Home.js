@@ -382,7 +382,7 @@ function Home() {
                     <div className=" matrimony_card " key={matrimonialItems.id}>
                       <div className="matrimony_card-bodys">
                         <img
-                          src={matrimonialItems.image}
+                          src={matrimonialItems.images}
                           alt=""
                           className="matrimony_card-bodys-img"
                         />

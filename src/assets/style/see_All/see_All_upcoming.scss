@@ -1,0 +1,107 @@
+.see_All_upcoming {
+  width: 100%;
+
+  //   background-color: red;
+}
+.contanerss {
+  max-width: 1280px;
+  //   background-color: red;
+  // margin: 0 auto;
+  margin-inline: auto;
+  padding: 20px 0px;
+  // border: 1px solid #ccc; /* Add a border around the container */
+  box-sizing: border-box;
+  //   background-color: red;
+  //   border: 1px solid black;
+}
+.all_card_section {
+  width: 100%;
+  height: auto;
+  //   background-color: red;
+  margin-top: 20px;
+}
+.see_All_Upcoming_card {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.see_All_Upcoming_card-bodys {
+  display: flex;
+  width: 240px;
+  height: 250px;
+  background-color: palevioletred;
+  filter: (drop-shadowoffset-x offset-y blur-radius color);
+  justify-content: center;
+  border-radius: 12px;
+  transition: opacity 400ms ease 0ms;
+  cursor: pointer;
+}
+.see_all_upComingCardDetais {
+  width: 100%;
+  height: 100px;
+  border-radius: 0px 0px 10px 10px;
+  text-align: center;
+  //   padding: 5px 6px;
+}
+.see_all_header-text {
+  color: #0f0f0f;
+  font-weight: 800;
+  letter-spacing: normal;
+  //   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font: optional;
+  //    color: rgba(27, 27, 27, 0.836);
+  font-weight: bold;
+  font-size: 32px;
+  //   margin-top: 25px;
+  text-shadow: rgba(17, 17, 17, 0.116) 1px 0 10px;
+  padding: 5px;
+}
+.see_all_text-title {
+  color: #ffff;
+  font-weight: 700;
+  letter-spacing: normal;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font: optional;
+  //    color: rgba(27, 27, 27, 0.836);
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 25px;
+  text-shadow: rgba(37, 37, 37, 0.692) 1px 0 10px;
+}
+
+.see_all_upComingCardDetais {
+  &::before,
+  &::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: scale3d(0, 0, 1);
+    transition: transform 0.3s ease-out 0s;
+    background: rgba(255, 255, 255, 0.1);
+    content: "";
+    pointer-events: none;
+  }
+
+  &::before {
+    transform-origin: left top;
+  }
+
+  &::after {
+    transform-origin: right bottom;
+  }
+
+  &:hover,
+  &:focus {
+    &::before,
+    &::after {
+      transform: scale3d(1, 1, 1);
+    }
+  }
+}

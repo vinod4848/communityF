@@ -1,0 +1,27 @@
+.jobPostMain {
+  width: 100%;
+  //   height: 100vh;
+  //   background-color: red;
+}
+.job-post-contaner {
+  max-width: 650px;
+
+  margin-inline: auto;
+  padding: 10px;
+  // border: 1px solid #ccc; /* Add a border around the container */
+  box-sizing: border-box;
+  //   background-color: rgb(43, 255, 0);
+}
+.job-post-form {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.24);
+}
+.job-post-form-title-text {
+  text-decoration: none;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.555);
+  font-family: sans-serif;
+  // margin-top: 20px;
+  font-weight: 600;
+
+}

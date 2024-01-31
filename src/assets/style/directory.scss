@@ -1,0 +1,63 @@
+.directory {
+  width: 100%;
+  height: auto;
+}
+.contanet {
+  max-width: 1180px;
+  //   background-color: red;
+  // margin: 0 auto;
+  margin-inline: auto;
+  padding: 20px;
+  // border: 1px solid #ccc; /* Add a border around the container */
+  box-sizing: border-box;
+  //   background-color: red;
+}
+.deiectory_nav {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 60vw;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  padding: 10px;
+  border-radius: 30px;
+  text-align: center;
+  margin: auto;
+  // border: 0.2px solid rgba(20, 20, 235, 0.678);
+}
+.deiectory_nav a {
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+}
+.search-title {
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.Seach-bar {
+  outline: none;
+  border: none;
+  padding: 5px 25px;
+  background-color: rgb(25, 133, 221);
+  color: white;
+  border-radius: 10px;
+}
+.search_input {
+  padding: 5px;
+  width: 250px;
+  font-size: 15px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid blue;
+}
+
+// Uttatile css
+.background_change {
+  width: 120px;
+  border: none;
+  outline: none;
+  background-color: blue;
+  padding: 6px;
+  border-radius: 21px;
+  color: white !important;
+}

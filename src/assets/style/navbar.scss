@@ -1,0 +1,51 @@
+.navbar {
+  background-color: rgba(255, 255, 255, 0.979);
+  // background-color: #c2bfbf;
+  height: 12vh;
+}
+.navbar .container {
+  max-width: 1280px;
+  //   background-color: red;
+  // margin: 0 auto;
+  margin-inline: auto;
+  padding: 20px;
+  // border: 1px solid #ccc; /* Add a border around the container */
+  box-sizing: border-box;
+  //   background-color: red;
+}
+.main-navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+// .navbarlist {
+//   width: 100%;
+//   //   background-color: green;
+//   // margin-left: 30%;
+// }
+.nav-item {
+  margin-left: 20px;
+}
+.useProfile {
+  font-size: 30px;
+  color: rgb(19, 135, 189);
+  justify-content: space-between;
+  justify-content: space-around;
+  margin-left: 20px;
+}
+.bell_Icon {
+  font-size: 22px;
+  color: rgb(19, 135, 189);
+}
+.login-btn {
+  height: 35px;
+  width: 70px;
+  // padding: 0px;
+  text-align: center;
+  background-color: rgb(19, 135, 189);
+  color: #fff !important;
+  margin-top: 5px;
+  font-size: 14px !important;
+  border-radius: 5px;
+}

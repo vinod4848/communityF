@@ -1,0 +1,425 @@
+.carousel {
+  width: 100%;
+  height: 60vh;
+  overflow: hidden;
+}
+
+.carousel-indicatorss {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: 6rem;
+  margin-left: 25%;
+  list-style: none;
+}
+.d-block {
+  // background-size: contain;
+  // background-repeat: no-repeat;
+  height: 30rem;
+  width: 100%;
+  object-fit: cover;
+  // filter: drop-shadow(20px 20px 10px rgb(40, 41, 40));
+}
+.textTitle {
+  font-size: 50px;
+  color: white;
+}
+.textColor {
+  color: white;
+  font-size: 20px;
+}
+
+.Upcoming {
+  width: 100%;
+  height: 68vh;
+  margin-top: 20px;
+  overflow: hidden;
+  // background: linear-gradient(180deg, #f5f4fa, rgba(251, 251, 253, 0));
+  // background-color: orange;
+}
+.Upcoming .containers {
+  max-width: 1280px;
+  margin-inline: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  // background-color: red;
+}
+.Upcoming_CardMain {
+  height: 55vh;
+  cursor: pointer;
+  border-radius: 10px;
+  flex-wrap: nowrap;
+  background: linear-gradient(180deg, #f5f4fa, rgba(251, 251, 253, 0));
+}
+.Upcoming_CarouselList {
+  height: 55vh;
+  // background-color: #bd1111;
+  padding: 5px;
+}
+
+.Upcoming_card {
+  width: 90%;
+  height: 56vh;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-left: 22px;
+  box-shadow: inset 0 -3em 2em rgba(214, 199, 157, 0.3),
+    0 0 0 0.1px rgb(58, 57, 57);
+}
+.Upcoming_card-bodys {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 35vh;
+  align-items: center;
+
+  // padding: 1rem;
+  background-color: #09a137;
+  // border-radius: 10px;
+}
+.upComingCardDetais {
+  width: 100%;
+  height: 100px;
+  border-radius: 0px 0px 10px 10px;
+  padding: 5px 6px;
+}
+.UpcomingTitle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.location {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 25px;
+}
+.event-home-date {
+  margin-top: 10px;
+  font-size: 12px;
+  font-style: normal;
+  line-height: normal;
+  // font-family: "AirbnbCereal_W_Md-", Helvetica;
+  font-weight: 400;
+  letter-spacing: normal;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font: optional;
+  color: rgba(27, 27, 27, 0.836);
+  text-shadow: rgba(17, 17, 17, 0.116) 1px 0 10px;
+}
+
+.UpcomingTitle {
+  font-style: normal;
+  line-height: normal;
+  // font-family: "AirbnbCereal_W_Md-", Helvetica;
+  font-weight: 800;
+  letter-spacing: normal;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font: optional;
+  color: rgba(27, 27, 27, 0.836);
+  font-weight: bold;
+  font-size: 18px;
+  text-shadow: rgba(17, 17, 17, 0.116) 1px 0 10px;
+}
+.textLocation {
+  margin-top: revert;
+  color: #2a2749;
+  font-family: "AirbnbCereal_W_Bk-", Helvetica;
+  font-size: 12px;
+}
+.Eventdate {
+  margin-top: 10px;
+  font-size: 12px;
+  font-style: normal;
+  line-height: normal;
+  // font-family: "AirbnbCereal_W_Md-", Helvetica;
+  font-weight: 400;
+  letter-spacing: normal;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font: optional;
+  color: rgba(27, 27, 27, 0.836);
+  text-shadow: rgba(17, 17, 17, 0.116) 1px 0 10px;
+}
+.home-detail-icon {
+  color: rgb(19, 135, 189);
+  // margin-left: 5px;
+
+  stroke-width: 1px;
+  stroke: #fff;
+}
+.see_All_pages {
+  cursor: pointer;
+}
+
+// Job datalist
+
+.Jobs {
+  width: 100%;
+  height: 57vh;
+  margin-top: 10px;
+  // background-color: rgb(255, 251, 0);
+  overflow: hidden;
+}
+.Jobs .containers {
+  max-width: 1280px;
+  margin-inline: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  // background-color: red;
+}
+.JobTileTitle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Job_cardMain {
+  width: 100%;
+  height: 40vh;
+  cursor: pointer;
+  border-radius: 10px;
+  // box-shadow: 0px 8px 30px rgba(79, 85, 136, 0.0588235294);
+  // background-color: rgb(18, 80, 21);
+  flex-wrap: nowrap;
+}
+.Job_CarouselList {
+  width: 100%;
+  height: 40vh;
+  // background-color: rgb(255, 141, 47);
+}
+.jobcard {
+  width: 85%;
+  height: 30vh;
+  background-color: palevioletred;
+  border-radius: 10px;
+  box-shadow: inset 0 -3em 2em rgba(214, 199, 157, 0.3),
+    0 0 0 0.1px rgb(58, 57, 57);
+  cursor: pointer;
+  padding: 8px;
+  margin-left: 30px;
+}
+.joblogo {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.companylogo {
+  width: 38%;
+  height: 40px;
+  background-color: rgb(173, 190, 21);
+  // position: relative;
+  // top: 5px;
+
+  left: 2px;
+  border-radius: 30px;
+  text-align: center;
+  padding: 5px;
+}
+.postdate {
+  width: 50.8%;
+  height: 60px;
+  text-align: center;
+  color: #ffffff;
+  font-family: "AirbnbCereal_W_Md-", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 5px;
+  // letter-spacing: 20;
+}
+.postTitleName {
+  color: #ffffff;
+  font-family: "AirbnbCereal_W_Md-", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 20;
+  line-height: normal;
+}
+.jobType {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  // background-color: red;
+}
+.Fulltime {
+  // background-color: rgba(255, 255, 255, 0.5019607843);
+  border-radius: 8px;
+  height: 25px;
+  width: 70px;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  color: black;
+}
+.Hybrid {
+  background-color: rgba(255, 255, 255, 0.5019607843);
+  border-radius: 8px;
+  height: 25px;
+  width: 70px;
+  border: none;
+  outline: none;
+  font-size: 12px;
+}
+.Joblocation {
+  width: 100%;
+  align-items: center;
+}
+.mapflexbox {
+  width: 100%;
+  display: flex;
+  color: white;
+}
+
+//Metimonial section
+
+.Metimonial {
+  width: 100%;
+  height: 55vh;
+  // margin-top: 20px;
+  // background-color: red;
+  overflow: hidden;
+}
+.Metimonial .containers {
+  max-width: 1280px;
+  margin-inline: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  // background-color: red;
+}
+.Metimonial_CardMain {
+  width: 100wh;
+  height: 50vh;
+  cursor: pointer;
+  // border-radius: 18px;
+  flex-wrap: nowrap;
+}
+.Metimonial_CarouselList {
+  width: 100%;
+  height: 50vh;
+  // background-color: greenyellow;
+}
+.matrimony_card {
+  width: 88%;
+  height: 100vh;
+  border-radius: 10px;
+  box-shadow: inset 0 -3em 2em rgba(214, 199, 157, 0.3),
+    0 0 0 0.1px rgb(58, 57, 57);
+  cursor: pointer;
+  background-color: blue;
+}
+.matrimony_card-bodys {
+  width: 100%;
+  height: 100%;
+  // padding: 20px;
+  align-items: center;
+  // padding: 1rem;
+  // background-color: red;
+  // background-color: yellow;
+  border-radius: 12px;
+}
+.matrimony_card-bodys-img {
+  width: 100%;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  // height: 300px;
+  background-size: contain;
+  border-radius: 7px;
+  margin-top: 100px;
+}
+.matrimony-home-flexbox {
+  width: 82%;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 180px;
+  left: 5px;
+}
+
+.matrimony_button {
+  // background-color: rgba(255, 255, 255, 0.5019607843);
+  border-radius: 20px;
+  height: 25px;
+  border: none;
+  outline: none;
+  font-size: 11px;
+  // background-color: rgba(255, 255, 255, 0.5019607843);
+}
+.matrimony_person {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  // justify-content: center;
+  align-items: center;
+  background-color: white;
+  // border: 1px solid black;
+  // background-color: red;
+}
+.matrimony_name {
+  text-align: center;
+  color: #070707;
+  font-family: "AirbnbCereal_W_Md-", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 20;
+  font-weight: bold;
+  align-items: center;
+}
+.matrimony_age {
+  text-align: center;
+  // color: #eee8e8;
+  font-family: "AirbnbCereal_W_Md-", Helvetica;
+  font-size: 12px;
+  // font-weight: 400;
+  letter-spacing: 20;
+  font-weight: bold;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 350px) {
+  .Upcoming {
+    width: 100%;
+    height: 40vh;
+    overflow: hidden;
+    // background-color: red;
+  }
+  .Upcoming_CardMain {
+    width: 100%;
+    height: 35vh;
+    cursor: pointer;
+    // background-color: #29d313;
+    border-radius: 18px;
+    flex-wrap: nowrap;
+  }
+  .Upcoming_CarouselList {
+    width: 100%;
+    height: 35vh;
+    // background-color: rgb(21, 138, 112);
+  }
+  .Upcoming_card {
+    width: 95%;
+    height: 35vh;
+    // background-color: #113188;
+    border-radius: 18px;
+    box-shadow: inset 0 -3em 2em rgba(214, 199, 157, 0.3),
+      0 0 0 0.1px rgb(58, 57, 57);
+  }
+  .Upcoming_card-bodys {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 24vh;
+    align-items: center;
+    padding: 1rem;
+    // background-color: yellow;
+    border-radius: 18px;
+  }
+}

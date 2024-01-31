@@ -1,0 +1,18 @@
+.contaners {
+  max-width: 1180px;
+  margin-inline: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  // background-color: red;
+}
+.blog-detail-images {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+}
+.blog-card-text-description {
+  margin-top: 20px;
+  font-size: 15px;
+  font-family: sans-serif;
+}
